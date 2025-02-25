@@ -89,9 +89,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
       const prompt = `Based on the following job description, provide a structured analysis with:
         1. Required skills
-        2. Average salary range
-        3. Location
-        4. Is this a remote job?
+        2. Location
+        3. Is this a remote job?
         
         Job Description:
         ${jobDescription}
