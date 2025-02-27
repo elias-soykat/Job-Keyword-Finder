@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async function () {
   const API_KEY = "AIzaSyAzU1T7TMacGakwn05VgdvxfvD0i4Akac4";
   const API_URL =
-    "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent";
+    "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent";
 
   const resultDiv = document.createElement("div");
   resultDiv.style.margin = "10px";
